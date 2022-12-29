@@ -55,7 +55,7 @@ It also uses the second, numeric difference metric in replication. Unfortunately
 ## System description 
 Our system takes the same general approach as other DHTs. 
 
-We assign 160-bit opaque IDs to nodes and provide a lookup algorithm that locates successively "closer" nodes to any desired ID, converging to the lookup target in logarithmi-cally many steps. 
+We assign 160-bit opaque IDs to nodes and provide a lookup algorithm that locates successively "closer" nodes to any desired ID, converging to the lookup target in logarithmically many steps. 
 
 Kademlia effectively treats nodes as leaves in a binary tree, with each node's position determined by the shortest unique prefix of its ID. 
 
